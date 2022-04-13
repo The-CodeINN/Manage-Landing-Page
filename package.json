@@ -1,10 +1,12 @@
 {
   "name": "tailwindCSS",
   "version": "1.0.0",
-  "homepage": "https://The-Codeinn.",
+  "homepage": "https://The-CodeINN.github.io/Manage-Landing-Page",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "tailwind -i ./input.css -o ./css/main.css",
     "watch": "tailwind -i ./input.css -o ./css/main.css --watch"
   },
