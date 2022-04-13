@@ -1,6 +1,7 @@
 {
   "name": "tailwindCSS",
   "version": "1.0.0",
+  "homepage": "https://The-Codeinn.",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "gh-pages": "^3.2.3",
     "tailwindcss": "^3.0.23"
   }
 }
